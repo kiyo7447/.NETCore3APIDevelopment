@@ -1,0 +1,7 @@
+﻿CREATE PROCEDURE [dbo].[VERIFY_email]
+	@em NVARCHAR(200)
+AS
+IF  EXISTS (SELECT email FROM usercredentials WHERE email = @em)
+SELECT 2
+ELSE
+SELECT 1

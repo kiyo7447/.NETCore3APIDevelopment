@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[authtokentable]
+(
+	[Id] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	[userid] NVARCHAR(100) NOT NULL ,
+	[token] NVARCHAR(100) NOT NULL 
+)

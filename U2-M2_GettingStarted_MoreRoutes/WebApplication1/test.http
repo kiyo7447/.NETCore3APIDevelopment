@@ -1,0 +1,28 @@
+$port = 5000
+
+### ■FirstTestController
+http://localhost:5000/Test/Action1
+###
+http://localhost:5000/Test/Action2
+###
+http://localhost:5000/Test/Action3
+###
+
+### ■SecondTestController
+http://localhost:5000/Second/Action1
+###
+http://localhost:5000/Second/Action2
+###
+http://localhost:5000/Second/Action3
+###
+
+### ■ThirdTestController
+GET http://localhost:5000/httpmethodroutes
+###
+POST http://localhost:5000/httpmethodroutes
+###
+PUT http://localhost:5000/httpmethodroutes
+###
+DELETE http://localhost:5000/httpmethodroutes
+###
+
